@@ -1,0 +1,21 @@
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars__star:before {
+  content: "";
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+/*# sourceMappingURL=index.8ec42be3.css.map */
